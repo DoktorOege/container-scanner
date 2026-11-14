@@ -660,5 +660,6 @@ idbGet('textures').then(async t=>{ if(t&&Object.keys(t).length){ await loadPhoto
 renderer.setAnimationLoop(()=>{ controls.update(); cutaway();
   const roofOn=mode==='aussen'||mode==='ich'; for(const g of itemsGroup.children){ if(g.position.y>1) g.visible=roofOn; } renderer.render(scene,camera); });
 </script>
+<!-- Cloudflare Web Analytics (Besucherzählung, ohne Cookies) --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "5825f26e3fcf4095b2c4339aacac50d1"}'></script>
 </body>
 </html>
